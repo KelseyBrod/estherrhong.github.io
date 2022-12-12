@@ -4,14 +4,15 @@ personalize this portfolio page using google fonts, different colors, different 
 *{
     box-sizing: border-box;
     margin: 0 auto;
+    color: white
 }
 
 a:visited {
-    color:deeppink;
+    color: white;
 }
 body{
-    background-image:linear-gradient(white, rgb(221, 246, 185));
-    font-family: 'IBM Plex Mono Medium', 'Helvetica', sans-serif; /*body font*/
+    background-color: rgb(0, 0, 0);
+    font-family: 'Apple Garamond Light' /*body font*/
 }
 
 header, footer {
@@ -23,7 +24,7 @@ header, footer {
 }
 
 main {
-    border: 1px, solid, black;
+    border: 1px, solid, white;
 }
 
 nav {
@@ -58,11 +59,15 @@ img{
 }
 
 #page_title{
-    color:deeppink;
-    font-family: 'Silkscreen', 'Gemunu Libre', 'Helvetica', 'Inter Tight', sans-serif; /*special font for title*/
-    text-align: left; /*moved page title to left*/
+    color: white;
+    font-family: 'Apple Garamond Light';
     max-width: 100%;
     padding: 40px 0px;
+    text-align: left;
+    font-size: 4em;
+    font-weight: 300;
+    font-stretch: narrower;
+
 }
 
 .project_item {
@@ -76,7 +81,8 @@ img{
     grid-column-gap: 15px;
     align-items: center;
     padding-right: 10%;
-    border: 2px dashed deeppink; /*dashedborder*/
+    border: 2px solid white; /*dashedborder*/
+    padding: 3%;
 }
 
 .project_image { 
